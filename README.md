@@ -8,7 +8,7 @@ At the very end some requests/actions were used first but later kept disabled. I
 
 
 ## Technology Used:
-- Jmeter
+- JMeter
 
 
 ## Prerequisites:
