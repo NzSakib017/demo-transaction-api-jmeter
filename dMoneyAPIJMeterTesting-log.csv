@@ -1,0 +1,16 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1685897226539,171,User Login - Admin,200,OK,dMoney-API-JMeter-Testing 1-1,text,true,,592,318,1,1,http://dmoney.roadtocareer.net/user/login,161,0,107
+1685897227799,52,Create User - Agent 101,201,Created,dMoney-API-JMeter-Testing 1-1,text,true,,623,627,1,1,http://dmoney.roadtocareer.net/user/create,52,0,0
+1685897228858,61,Create User - Customer 101,201,Created,dMoney-API-JMeter-Testing 1-1,text,true,,632,636,1,1,http://dmoney.roadtocareer.net/user/create,61,0,0
+1685897229918,105,System Deposit To Agent - 2000 TK,201,Created,dMoney-API-JMeter-Testing 1-1,text,true,,444,528,1,1,http://dmoney.roadtocareer.net/transaction/deposit,105,0,0
+1685897231037,131,Agent Deposit To Customer - 1000 TK,201,Created,dMoney-API-JMeter-Testing 1-1,text,true,,437,535,1,1,http://dmoney.roadtocareer.net/transaction/deposit,131,0,0
+1685897232168,28,Check Balance After Agent Deposit,200,OK,dMoney-API-JMeter-Testing 1-1,text,true,,377,433,1,1,http://dmoney.roadtocareer.net/transaction/balance/01841114092,28,0,0
+1685897233203,38,Customer Withdrawal Form Agent - 500 TK,201,Created,dMoney-API-JMeter-Testing 1-1,text,true,,429,535,1,1,http://dmoney.roadtocareer.net/transaction/withdraw,38,0,0
+1685897234247,58,Customer Payment to Merchant - 200 TK,201,Created,dMoney-API-JMeter-Testing 1-1,text,true,,428,534,1,1,http://dmoney.roadtocareer.net/transaction/payment,58,0,0
+1685897235311,106,Customer (Final) Balance Check,200,OK,dMoney-API-JMeter-Testing 1-1,text,false,"Test failed: text expected to equal /
+
+****** received  : [[[{""message"":""User balance"",""balance"":290}]]]
+
+****** comparison: [[[290                                     ]]]
+
+/",376,433,1,1,http://dmoney.roadtocareer.net/transaction/balance/01841114092,106,0,0
